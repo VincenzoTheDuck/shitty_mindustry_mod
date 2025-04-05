@@ -89,7 +89,7 @@ drawer: [
     y: -63
   }
 ]
-items: {
+consumes: {
 items: [
 pyratite/1
 ]
