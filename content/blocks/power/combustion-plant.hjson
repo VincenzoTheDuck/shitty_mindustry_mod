@@ -1,6 +1,7 @@
 requirements: [
   
 ]
+type: ConsumeGenerator
 name: "Combustion Plant"
 description: '''
   lol big power
