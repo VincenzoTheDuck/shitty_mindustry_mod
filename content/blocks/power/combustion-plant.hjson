@@ -1,0 +1,97 @@
+requirements: [
+  
+]
+name: "Combustion Plant"
+description: '''
+  lol big power
+'''
+category: power
+powerProduction: 45
+itemCapacity: 40
+itemDuration: 40
+ambientSound: smelter
+ambientSoundVolume: 0.08
+effectChance: 0.05
+generateEffectRange: 7
+generateEffect: none
+consumeEffect: none
+size: 6
+drawer: [
+  {
+    type: DrawRegion
+    suffix: "-bottom"
+  }
+  {
+    type: DrawSoftParticles
+    alpha: 0.22
+    particleRad: 12
+    particleSize: 16
+    particleLife: 140
+    particles: 26
+    color: ffd974
+    color2: ef883e
+  }
+  {
+    type: DrawGlowRegion
+    suffix: "-chamber-glow"
+    alpha: 0.6
+    glowScale: 20
+    glowIntensity: 1
+    color: ffc174
+  }
+  //center fan
+  {
+    type: DrawRegion
+    suffix: "-huge-fan"
+    spinSprite: true
+    rotateSpeed: 1
+  }
+  {
+    type: DrawRegion
+    suffix: "-huge-fan"
+    spinSprite: true
+    rotateSpeed: 1
+    rotation: 22.5
+  }
+  {
+    type: DrawRegion
+    suffix: "-huge-fan"
+    spinSprite: true
+    rotateSpeed: 1
+    rotation: 45
+  }
+  {
+    type: DrawRegion
+    suffix: "-huge-fan"
+    spinSprite: true
+    rotateSpeed: 1
+    rotation: 67.5
+  }
+  {
+    type: DrawRegion
+    suffix: "-bottom2"
+  }
+  {
+    type: DrawGlowRegion
+    suffix: "-vent-glow"
+    alpha: 0.4
+    glowScale: 25
+    glowIntensity: 1
+    color: ffc174
+  }
+  //bottom-left vent fan
+  {
+    type: DrawRegion
+    suffix: "-small-fan"
+    spinSprite: true
+    rotateSpeed: 3
+    x: -63
+    y: -63
+  }
+]
+items: {
+items: [
+pyratite/1
+]
+}
+}
