@@ -23,7 +23,7 @@ ammoTypes: {
     frontColor: f9a3c7
     backColor: cb8ebf
     trailColor: cb8ebf
-    trailWidth: 3
+    trailWidth: 2
     trailLength: 20
     speed: 6
     lifetime: 166
@@ -46,10 +46,10 @@ ammoTypes: {
           { 
             particles: 1
             colorFrom: ffffff
-            colorTo: 
+            colorTo: f9a3c7
             sizeFrom: 100
             sizeTo: 200
-            lifetime: 30
+            lifetime: 50
             length: 0
             sizeInterp: pow2Out
           }
@@ -59,7 +59,7 @@ ammoTypes: {
             colorTo: f9a3c7
             sizeFrom: 10
             sizeTo: 0
-            lifetime: 30
+            lifetime: 50
             baseLength: 100
             length: 200
             sizeInterp: pow2Out
@@ -119,6 +119,33 @@ ammoTypes: {
         baseLength: 50
         length: 170
         interp: pow2Out
+        sizeInterp: linear
+      }
+      //chargeup before explosion
+      {
+        startDelay: 30
+        lifetime: 90
+        sizeFrom: 160
+        sizeTo: 8
+        particles: 1
+        colorFrom: f9a3c7
+        colorTo: ffffff
+        length: 0
+        sizeInterp: linear
+      }
+      {
+        line: true
+        startDelay: 30
+        lifetime: 90
+        lenFrom: 2
+        lenTo: 14
+        particles: 20
+        strokeFrom: 5
+        strokeTo: 2
+        colorFrom: f9a3c7
+        colorTo: ffffff
+        baseLength: 160
+        length: 0
         sizeInterp: linear
       }
     ]
