@@ -30,6 +30,16 @@ drawer: [
     type: DrawRegion
     suffix: "-bottom"
   }
+  {
+    type: DrawSoftParticles
+    alpha: 0.22
+    particleRad: 12
+    particleSize: 16
+    particleLife: 120
+    particles: 20
+    color: ef883e
+    color2: ff5f42
+  }
   DrawDefault
   {
     type: DrawGlowRegion
