@@ -144,7 +144,7 @@ drawer: [
     suffix: "-light"
     alpha: 0.8
     glowScale: 30
-    glowIntensity: 2
+    glowIntensity: 1
     color: ff0000
   }
 ]
