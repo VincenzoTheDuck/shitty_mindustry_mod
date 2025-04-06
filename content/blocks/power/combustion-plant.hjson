@@ -27,7 +27,7 @@ drawer: [
     alpha: 0.22
     particleRad: 12
     particleSize: 16
-    particleLife: 140
+    particleLife: 90
     particles: 26
     color: ffd974
     color2: ef883e
@@ -36,7 +36,7 @@ drawer: [
     type: DrawGlowRegion
     suffix: "-chamber-glow"
     alpha: 0.6
-    glowScale: 20
+    glowScale: 15
     glowIntensity: 1
     color: ffc174
   }
@@ -45,13 +45,13 @@ drawer: [
     type: DrawRegion
     suffix: "-huge-fan"
     spinSprite: true
-    rotateSpeed: 1
+    rotateSpeed: 5
   }
   {
     type: DrawRegion
     suffix: "-huge-fan"
     spinSprite: true
-    rotateSpeed: 1
+    rotateSpeed: 5
     rotation: 45
   }
   {
@@ -71,7 +71,7 @@ drawer: [
     type: DrawRegion
     suffix: "-small-fan"
     spinSprite: true
-    rotateSpeed: 3
+    rotateSpeed: 10
     x: -15.75
     y: 15.75
   }
@@ -79,27 +79,27 @@ drawer: [
     type: DrawRegion
     suffix: "-small-fan"
     spinSprite: true
-    rotateSpeed: 3
-    rotation: 22.5
-    x: -15.75
-    y: 15.75
-  }
-  {
-    type: DrawRegion
-    suffix: "-small-fan"
-    spinSprite: true
-    rotateSpeed: 3
+    rotateSpeed: 10
     rotation: 45
     x: -15.75
     y: 15.75
   }
+  //top-right vent fan
   {
     type: DrawRegion
     suffix: "-small-fan"
     spinSprite: true
-    rotateSpeed: 3
-    rotation: 67.5
-    x: -15.75
+    rotateSpeed: 10
+    x: 15.75
+    y: 15.75
+  }
+  {
+    type: DrawRegion
+    suffix: "-small-fan"
+    spinSprite: true
+    rotateSpeed: 10
+    rotation: 45
+    x: 15.75
     y: 15.75
   }
   //bottom-left vent fan
@@ -107,7 +107,7 @@ drawer: [
     type: DrawRegion
     suffix: "-small-fan"
     spinSprite: true
-    rotateSpeed: 3
+    rotateSpeed: 10
     x: -15.75
     y: -15.75
   }
@@ -115,26 +115,8 @@ drawer: [
     type: DrawRegion
     suffix: "-small-fan"
     spinSprite: true
-    rotateSpeed: 3
-    rotation: 22.5
-    x: -15.75
-    y: -15.75
-  }
-  {
-    type: DrawRegion
-    suffix: "-small-fan"
-    spinSprite: true
-    rotateSpeed: 3
+    rotateSpeed: 10
     rotation: 45
-    x: -15.75
-    y: -15.75
-  }
-  {
-    type: DrawRegion
-    suffix: "-small-fan"
-    spinSprite: true
-    rotateSpeed: 3
-    rotation: 67.5
     x: -15.75
     y: -15.75
   }
@@ -143,7 +125,7 @@ drawer: [
     type: DrawRegion
     suffix: "-small-fan"
     spinSprite: true
-    rotateSpeed: 3
+    rotateSpeed: 10
     x: 15.75
     y: -15.75
   }
@@ -151,37 +133,10 @@ drawer: [
     type: DrawRegion
     suffix: "-small-fan"
     spinSprite: true
-    rotateSpeed: 3
-    rotation: 22.5
-    x: 15.75
-    y: -15.75
-  }
-  {
-    type: DrawRegion
-    suffix: "-small-fan"
-    spinSprite: true
-    rotateSpeed: 3
+    rotateSpeed: 10
     rotation: 45
     x: 15.75
     y: -15.75
-  }
-  {
-    type: DrawRegion
-    suffix: "-small-fan"
-    spinSprite: true
-    rotateSpeed: 3
-    rotation: 67.5
-    x: 15.75
-    y: -15.75
-  }
-  DrawDefault
-  {
-    type: DrawGlowRegion
-    suffix: "-light"
-    alpha: 0.7
-    glowScale: 40
-    glowIntensity: 2
-    color: ff0000
   }
 ]
 consumes: {
