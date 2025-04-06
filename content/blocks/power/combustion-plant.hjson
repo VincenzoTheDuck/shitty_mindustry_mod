@@ -138,6 +138,15 @@ drawer: [
     x: 15.75
     y: -15.75
   }
+  DrawDefault
+  {
+    type: DrawGlowRegion
+    suffix: "-light"
+    alpha: 0.8
+    glowScale: 30
+    glowIntensity: 2
+    color: ff0000
+  }
 ]
 consumes: {
 items: [
