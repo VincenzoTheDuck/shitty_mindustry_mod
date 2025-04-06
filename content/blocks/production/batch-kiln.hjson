@@ -1,0 +1,48 @@
+type: GenericCrafter
+size: 6
+name: "Batch Kiln"
+description: '''
+  Produces huge batches of metaglass with minimal product loss, creating scrap metal as a byproduct of the process. Burns oil as fuel.
+'''
+liquidCapacity: 40
+itemCapacity: 60
+requirements: [
+  metaglass/100
+  thorium/120
+  plastanium/80
+  surge-alloy/100
+  lead/240
+  silicon/120
+]
+consumes: {
+  power: 8
+  items: [
+    sand/12
+    lead/12
+  ]
+  liquid: {
+    liquid: oil
+    amount: 0.25
+  }
+}
+drawer: [
+  {
+    type: DrawRegion
+    suffix: "-bottom"
+  }
+  DrawDefault
+  {
+    type: DrawGlowRegion
+    suffix: "-glow"
+    alpha: 0.6
+    glowScale: 15
+    glowIntensity: 1
+    color: ff5f42
+  }
+]
+craftTime: 120
+outputItems: [
+  metaglass/20
+  scrap/2
+]
+category: crafting
